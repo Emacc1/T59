@@ -101,7 +101,10 @@ li{
     display: inline-block;
     margin: 0px 5px 5px 10px; 
     padding: 2px;
+    
 }
+
+
 
 
 
@@ -111,6 +114,26 @@ ul{
     /* padding: 2px; */
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
+    overflow: hidden;
+}
+
+.botones__nav li{
+
+    /* width: 100px; */
+
+    transition: all, 1s;
+    
+}
+
+.botones__nav li:hover{
+
+    /* height: 130%; */
+    height: 150%;
+    color: rgb(46, 46, 46);
+    font-size: 130%;
+    background-color: #ffffff77;
+    border-radius: 50%;
+    
 }
 
 .banner{
